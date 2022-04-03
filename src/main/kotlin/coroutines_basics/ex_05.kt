@@ -11,6 +11,6 @@ fun main() = runBlocking {
     }
 
     println("Hello")
-    job.join() // 자식 코루틴(job)이 완료될 때까지 대기
+    job.join() // 자식 코루틴(job) 이 완료될 때까지 대기
     println("DONE")
 }
